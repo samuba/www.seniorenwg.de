@@ -40,9 +40,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.navbar li a {
-    line-height: 0;
-}
 
 /*------------------------------------------------------------------*/
 /*   IE10 in Windows 8 and Windows Phone 8 Bug fix
