@@ -40,6 +40,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.navbar li a {
+    line-height: 0;
+}
+
 /*------------------------------------------------------------------*/
 /*   IE10 in Windows 8 and Windows Phone 8 Bug fix
 /*-----------------------------------------------------------------*/
@@ -1008,6 +1012,7 @@ Home Section style
     font-size:4.286rem;
     font-weight: 700;
     line-height: 7.5rem;
+    text-shadow: 0 0 10px #212121;
 }
 
 .home_text .home_underline {
@@ -1153,6 +1158,9 @@ Impress section style
     background:url(../images/background/work-together.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
+}
+.main_impress {
+    text-shadow: 0 0 8px #212121;
 }
 .main_impress h2{
     font-size:2.286rem
