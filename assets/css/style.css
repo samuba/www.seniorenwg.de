@@ -1319,24 +1319,19 @@ Contact Section style
 
 .main_contact{
     overflow: hidden;
-    font-size: 14pt;
-}
-.main_contact a.btn{
-    width:100%;
+    font-size: 13pt;
+    color: #fff;
 }
 .main_contact .head_title {
     padding-bottom: 3em;
 }
 .main_contact .contact_data {
     font-family: Courier New, Courier, monospace;
-    color: #fff;
+    font-size: 16pt;
+    line-height: 2rem;
+    text-align: center;
 }
-.main_contact .form-control{
-    font-size: 13pt;
-}
-.main_contact .form-group a{
-    font-size: 13pt;
-}
+
 
 /*
 Footer Section style
