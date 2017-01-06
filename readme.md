@@ -1,6 +1,6 @@
 Todo:
  - test with different browsers
- - map reparieren (drag/zoom)
+   - align welcome pic for non chrome browsers 
  - better spacings on mobile
  - optimize performance
    - shrink icon fonts to include only used ones
