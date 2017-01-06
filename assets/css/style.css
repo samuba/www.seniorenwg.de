@@ -1064,35 +1064,6 @@ Featured section style
     margin:0 auto;
 }
 
-.slick-center .featured_img{
-    position: relative;
-}
-.slick-center .featured_img:before{
-    content:"+";
-    width:50px;
-    height: 50px;
-    line-height: 50px;
-    position: absolute;
-    left:43.5%;
-    right:43.5%;
-    top:35%;
-    color: #000;
-    background-color: #fff;
-    border-radius: 50%;
-    font-size:3rem;
-    z-index: 2;
-    cursor: pointer;
-}
-.slick-center .featured_img a{
-    position: absolute;
-    left:43.5%;
-    right:43.5%;
-    top:35%;
-    display: block;
-    width:50px;
-    height: 50px;
-    z-index: 3;
-}
 .featured_img a{
     display: none;
 }
@@ -1108,17 +1079,6 @@ Featured section style
 }
 .featured_slider div{
     margin-right: 5px;
-}
-.slick-slide{
-    opacity: .6;
-}
-.slick-center{
-    display: block;
-    max-width: 10% !important;
-    max-height:20% !important;
-    opacity: 1;
-
-
 }
 
 

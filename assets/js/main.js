@@ -33,16 +33,20 @@ jQuery(document).ready(function ($) {
 
 
 
-    /*---------------------------------------------*
-     * WOW
-     ---------------------------------------------*/
+//---------------------------------------------
+// WOW
+//---------------------------------------------
 
     var wow = new WOW({
         mobile: false // trigger animations on mobile devices (default is true)
     });
     wow.init();
 
-// magnificPopup
+
+
+//---------------------------------------------
+// Magnific Popup
+//---------------------------------------------
 
     $('.popup-img').magnificPopup({
         type: 'image',
@@ -51,37 +55,6 @@ jQuery(document).ready(function ($) {
         }
     });
 
-
-
-//    featured slider
-    $('.featured_slider').slick({
-        centerMode: true,
-        dote: true,
-        centerPadding: '60px',
-        slidesToShow: 3,
-        speed: 1500,
-        index: 2,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 1
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 1
-                }
-            }
-        ]
-    });
 
 
 //---------------------------------------------
