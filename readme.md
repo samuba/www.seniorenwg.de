@@ -1,9 +1,9 @@
 Todo:
+ - test with different browsers
  - map reparieren (drag/zoom)
- - foto gallerie besser machen
  - better spacings on mobile
  - optimize performance
- -- shrink icon fonts to include only used ones
- -- shrink images
- -- remove obsolete libs/fonts
- -- remove obsolete css
+   - shrink icon fonts to include only used ones
+   - shrink images
+   - remove obsolete libs/fonts
+   - remove obsolete css
