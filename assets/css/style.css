@@ -184,22 +184,6 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     /*color:#fff;*/
 }
 
-.form-control{
-    border-radius: 0px;
-    border:1px solid #ccc;
-    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
-    width: 100%;
-    height: 50px;
-    /*color:#fff;*/
-}
-
-.form-control:focus {
-    border-color: #bcefeb;
-    outline: 0;
-    box-shadow: inset 0 0px 0px rgba(0,0,0,.075),0 0 0px rgba(102,175,233,.6);
-    /*color:#fff;*/
-}
-
 h1,
 h2,
 h3,
@@ -997,7 +981,14 @@ Home Section style
     line-height: 1em;
     width: 5.44em;
 }
-
+@media (max-width: 767px) {
+    .home_text {
+        margin-left: 20px;
+    }
+    .home_text h1{
+        font-size: 3.5rem;;
+    }
+}
 
 
 /*
