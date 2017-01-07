@@ -952,6 +952,14 @@ textarea::-ms-input-placeholder{
 
 /*End off Preloader*/
 
+/*
+Nav style
+==================*/
+nav.navbar.bootsnav .navbar-toggle{
+    margin-top: 8px;
+}
+
+
 
 /*
 Home Section style
