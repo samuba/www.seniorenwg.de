@@ -1035,14 +1035,14 @@ About section style
     float: left;
     margin-right: 20px;
 }
-.ab_head .ab_head_icon .icofont,
+.ab_head .ab_head_icon i,
 .ab_head .ab_head_icon .icon{
     width:40px;
     height: 40px;
     line-height: 40px;
     font-size:1.5rem;
     background-color: #e0610c;
-    color:#fff;
+    color:#e0610c;
     display: inline-block;
     text-align: center;
     border-radius: 50%;
@@ -1092,9 +1092,7 @@ service section style
     width:100%;
     overflow: hidden;
 }
-.service_item i.icofont,
-.service_item i.fa,
-.service_item span.icon{
+.service_item i{
     font-size:3rem;
 }
 .service_item h6{}
