@@ -1077,6 +1077,21 @@ service section style
 .service_item h6{}
 .service_item p{}
 
+.main_service .row{
+    margin-bottom: 80px;
+}
+@media (max-width: 991px) {
+    .service_item{
+        margin-bottom: 60px;
+    }
+    .main_service .row{
+        margin-bottom: 0;
+    }
+}
+
+
+
+
 
 /*
 Impress section style
