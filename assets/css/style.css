@@ -724,7 +724,7 @@ textarea::-ms-input-placeholder{
 /*Preloader css*/
 
 #loading{
-    background-color: #d14149;
+    background-color:  #e0610c;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -733,6 +733,21 @@ textarea::-ms-input-placeholder{
     top: 0px;
     left:0;
     z-index: 9999;
+}
+#loading .txt{
+    color: #fff;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 2rem;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: -50px;
 }
 #loading-center{
     width: 100%;
@@ -745,7 +760,7 @@ textarea::-ms-input-placeholder{
     top: 50%;
     height: 150px;
     width: 150px;
-    margin-top: -75px;
+    margin-top: 0px;
     margin-left: -75px;	
     -ms-transform: rotate(45deg); 
     -webkit-transform: rotate(45deg);
