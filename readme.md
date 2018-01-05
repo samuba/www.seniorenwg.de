@@ -9,3 +9,4 @@ Todo:
 
  - icons inline with text
  - SEO: ünninghausen und senioren-eg in h1
+ - better loading indicator
