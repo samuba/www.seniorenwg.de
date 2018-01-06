@@ -530,7 +530,7 @@
                                 <p class="contact_data">
                                     Telefon1: 02945/5265<br>
                                     Telefon2: 0171/6998686<br>
-                                    Email: info@seniorenwg.de<br><br>
+                                    Email: <a data-name="info" data-domain="seniorenwg" data-tld="de" href="#" class="cryptedmail"></a><br><br>
                                 </p>
                             </div>
                             <div class="col-md-4">
@@ -609,7 +609,17 @@
                 $('.maps_text h3').hide();
                 $('.main_maps .overlay').hide();
             }
+        </script>
 
+        <script>
+            // defuscate email adresses
+            setTimeout(function() {
+                for (var el of document.getElementsByClassName("cryptedmail")) {
+                    var adr = el.getAttribute("data-name") + '@' + el.getAttribute("data-domain") + '.' + el.getAttribute("data-tld")
+                    el.innerHTML = adr
+                    el.addEventListener('click', function() { window.location.href = 'mailto:' + adr; return false })
+                }
+            }, 2000)
         </script>
 
         <script src="assets/js/plugins.js"></script>
