@@ -30,6 +30,7 @@ a:hover {
 @-o-viewport { width: device-width; }
 @viewport { width: device-width; }
 
+
 /*
     Page Content
 ------------------------------------------*/
@@ -77,7 +78,6 @@ section { overflow: hidden; }*/
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
 
 /*text color*/
 
@@ -387,16 +387,9 @@ Button
 .btn-link{}
 
 
-
-/*
-socail icon
---------------------------------*/
-/*a i.share{
-    color:#1E8BC3;
-    -webkit-transition: all .6s;
-    transition: all .6s;
-}*/
-
+/* atomic style css */
+.di { display: inline; }
+.ml10 { margin-left: 10px }
 
 /*
 Extra height css
