@@ -7,6 +7,5 @@ Todo:
    - remove obsolete libs/fonts
    - remove obsolete css
 
- - icons inline with text
  - SEO: ünninghausen und senioren-eg in h1
  - better loading indicator
