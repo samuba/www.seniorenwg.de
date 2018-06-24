@@ -1,7 +1,11 @@
 Todo:
- - map reparieren (drag/zoom)
- - foto gallerie besser machen
- - better spacings on mobile
+ - test with different browsers
+ - fix margin under title row
+ - fix scroll to position on mobile (from menu)
  - optimize performance
- -- shrink icon fonts to include only used ones
- -- shrink images
+   - shrink images
+   - remove obsolete libs/fonts
+   - remove obsolete css
+
+ - SEO: ünninghausen und senioren-eg in h1
+ - better loading indicator
